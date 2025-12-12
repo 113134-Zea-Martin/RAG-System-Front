@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #222;
+}
+
+.topbar {
+  height: 56px;
+  background:#2f3640;
+  color: #fff;
+}
+
+.brand { font-weight:600; }
+
+.stage {
+  background: #f3f5f7;
+  min-height: calc(100vh - 56px);
+}
+
+.monitor {
+  width: 1000px;
+  max-width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(10,20,30,0.12);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.btn-primary:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}

@@ -1,0 +1,70 @@
+<div class="stage d-flex justify-content-center py-5">
+  <div class="monitor p-4" style="max-width:1100px; width:100%;">
+    <!-- Hero -->
+    <section class="mb-4 text-start">
+      <h1 class="display-6 fw-bold">RAG System</h1>
+      <p class="lead text-muted">
+        Convierte documentos en una knowledge base y realiza preguntas precisas con respuestas fundamentadas.
+        Extracción, embeddings y respuesta asistida por LLM — todo en una interfaz simple.
+      </p>
+
+      <div class="d-flex gap-2 mt-3">
+        <a class="btn btn-primary" routerLink="/upload">Upload</a>
+        <a class="btn btn-outline-secondary" routerLink="/ask">Ask</a>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Features -->
+    <section class="row g-4 my-3">
+      <div class="col-md-4">
+        <div class="p-3 h-100">
+          <h5 class="mb-2">1. Subir documentos</h5>
+          <p class="text-muted small">
+            Pega o carga tu contenido. El sistema indexa y prepara fragmentos relevantes.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-3 h-100">
+          <h5 class="mb-2">2. Generar embeddings</h5>
+          <p class="text-muted small">
+            Se generan vectores y se construye una knowledge base lista para retrieval.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-3 h-100">
+          <h5 class="mb-2">3. Preguntar & responder</h5>
+          <p class="text-muted small">
+            Realiza búsquedas de fragmentos y consulta al LLM. Verás resultados de retrieval y respuestas generadas, con fuentes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- How it works -->
+    <section class="my-3">
+      <h5 class="mb-3">Cómo funciona</h5>
+      <ol class="small text-muted">
+        <li>Sube tu documento o pega el contenido.</li>
+        <li>El sistema procesa y divide en fragmentos; genera embeddings para búsqueda.</li>
+        <li>Al preguntar, el motor recupera fragmentos relevantes y (opcional) el LLM genera una respuesta basada en esos fragmentos.</li>
+        <li>Se muestran la respuesta generada y las fuentes usadas para que puedas verificar la información.</li>
+      </ol>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-between align-items-center mt-3">
+      <small class="text-muted">© 2025 RAG System</small>
+      <small class="text-muted">Integraciones: embeddings · retrieval · LLM</small>
+    </footer>
+  </div>
+</div>
