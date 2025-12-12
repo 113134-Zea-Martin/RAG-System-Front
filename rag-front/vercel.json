@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "outputDirectory": "dist/rag-front",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/rag-front/browser",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
