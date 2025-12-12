@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "rag-front/dist/rag-front",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/rag-front/index.html" }
-  ]
-}
