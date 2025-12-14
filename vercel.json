@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "buildCommand": "cd rag-front && npm install && npm run build",
+  "outputDirectory": "rag-front/dist/rag-front",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/rag-front/index.html" }
+  ]
+}
